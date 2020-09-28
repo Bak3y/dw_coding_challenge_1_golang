@@ -29,5 +29,5 @@ func CFIM_resolve_balance(debit_balance, credit_balance float32) balance {
 
 func main() {
 	bal := CFIM_resolve_balance(125.22, 65.08)
-	fmt.Print(bal)
+	fmt.Printf("BalanceType: %s, Balance: %v\n", bal.BalanceType, bal.Balance)
 }
